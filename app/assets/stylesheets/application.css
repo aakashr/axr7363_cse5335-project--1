@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+body {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+#cities {
+    border-collapse: collapse;
+    border: 2px solid;
+}
+#cities td, th{
+    border: 1px solid;
+}
