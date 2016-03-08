@@ -1,5 +1,8 @@
-<div class="jumbotron text-center">
+<div>
   <button type="button" onclick="dispTable()">Click Me!</button>
+</div>
+<div id="table">
+
 </div>
 <script>
   function dispTable(){
@@ -8,6 +11,21 @@
         })
         .done(function(JSON_City_List) {
           alert(JSON_City_List);
+          var tbl=$("<table/>").attr("id","cities");
+          $("#table").empty();
+          $("#table").append(tbl);
+          $("#cities").append("<tr><th>City</th><th>Latitude</th><th>Longitude</th></tr>");
+
+          for (var i = 0; i < JSON_City_List.length; i++) {
+            var city = JSON_City_List[i];
+
+            var tr="<tr>";
+            var td1="<td>"+city[0]+"</td>";
+            var td2="<td>"+city[1]+"</td>";
+            var td3="<td>"+city[2]+"</td></tr>";
+
+            $("#cities").append(tr+td1+td2+td3);
+          }
         });
   }
 </script>
