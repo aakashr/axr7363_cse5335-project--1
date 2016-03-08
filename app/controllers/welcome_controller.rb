@@ -14,11 +14,11 @@ class WelcomeController < ApplicationController
 
   end
   def list_cities
-		index1 = rand(0..9)
-		index2 = rand(0..9)
-		cities = nil.to_a
-		cities << @@Arr_City[index1]
-		cities << @@Arr_City[index2]
+    cities = nil.to_a
+    10.times do
+      index = rand(@@Arr_City.size-1)
+      cities << @@Arr_City[index]
+    end
 		render json: cities
   end
 
