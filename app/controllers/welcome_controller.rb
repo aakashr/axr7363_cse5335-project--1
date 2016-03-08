@@ -13,7 +13,7 @@ class WelcomeController < ApplicationController
   def index
 
   end
-  def listCitites
+  def list_cities
 
 	render json: @@Arr_City
   end
