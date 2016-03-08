@@ -16,10 +16,14 @@
 body {
     font-family: "Helvetica Neue", "Arial", sans-serif;
 }
+#table {
+    width: 100%;
+}
 #cities {
     border-collapse: collapse;
     border: 2px solid;
 }
 #cities td, th{
     border: 1px solid;
+    padding: 5px;
 }
