@@ -1,9 +1,15 @@
 <div class="jumbotron text-center">
-  <H1>What's wrong with my Stomach.</H1>
+  <button type="button" onclick="dispTable()">Click Me!</button>
 </div>
-<div class="container">
-  <button type="button">Click Me!</button>  
-</div>
-
+<script>
+  function refresh(){
+    $.ajax({
+          url: "/welcome/listCities"
+        })
+        .done(function(JSON_City_List) {
+          alert(JSON_City_List);
+        });
+  }
+</script>
 
 
