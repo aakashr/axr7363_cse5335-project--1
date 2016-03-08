@@ -22,6 +22,7 @@ body {
 #cities {
     border-collapse: collapse;
     border: 2px solid;
+    margin: auto;
 }
 #cities td, th{
     border: 1px solid;
