@@ -47,6 +47,12 @@ NOTE : Some of the Markers may not be visible as the Map is zoomed in on US. Onc
 ###### `What Ubuntu commands are required to deploy and run your server?`
 ###### The following commands were used in order to deploy and run my project on the Server.
 
+* ###### For creating a new Rails project.
+* `rails new WDM-CSE5335-Project-1`
+
+* ###### To create a new project on Heroku.
+* `heroku create`
+
 * ###### For adding the changes present on the local machine to the Heroku's git server.
 * `git add .`
 
