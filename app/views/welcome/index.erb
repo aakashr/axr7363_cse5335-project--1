@@ -3,7 +3,25 @@
 </div>
 <div id="table" class="center">
 </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDm-Mit8BZrKxquqz8GEYkPst4YteQKoNk&callback=initMap"
+        async defer></script>
 <script>
+  var map;
+  var markers = new Array();
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 43, lng: -104},
+      zoom: 4,
+      mapTypeControl: false,
+      scaleControl: false,
+      streetViewControl: false,
+      overviewMapControl: false,
+      zoomControl: false,
+      panControl: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+    dispTable();
+  }
   function dispTable(){
     $.ajax({
           url: "/welcome/list_cities"
