@@ -34,11 +34,11 @@ CSE5335-Project-1 Submission
 
 * ##### Ruby Mine.
   
-  ###### For editing ROR components. Its predictive text feature helped me in        understanding the various attributes and functions that may be used.
+  ###### For editing ROR components. Its predictive text feature helped me in understanding the various attributes and functions that may be used.
 
 * ##### Sublime Text 2.
   
-  ###### Since I am working on a MAC, the TextEdit App doesn't fulfil my need of     looking at important parts of a file by just glancing through it. _Sublime Text 2_ diplayed important components of the files in different colours, which helped me in understanding whether a piece of text is an attribute or a user defined value.
+  ###### Since I am working on a MAC, the TextEdit App doesn't fulfil my need of looking at important parts of a file by just glancing through it. _Sublime Text 2_ diplayed important components of the files in different colours, which helped me in understanding whether a piece of text is an attribute or a user defined value.
 
 ###### `What Ubuntu commands are required to deploy and run your server?`
 ###### The following commands were used in order to deploy and run my project on the Server.
@@ -50,6 +50,7 @@ CSE5335-Project-1 Submission
 * `git commit -m "Comments"`
 
 * ###### For deploying the commited changes to Heroku Server.
+* `git push origin master`
 * `git push heroku master`
 
 ---
