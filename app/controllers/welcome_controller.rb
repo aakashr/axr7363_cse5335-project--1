@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-	@@Arr_City = [["Arlington","32.7050 N","97.1228 W"],
+	@@Arr_City = [["Arlington","32.7050","97.1228"],
 							["New York","40.7127 N","74.0059 W"],
 							["Boston","42.3601 N","71.0589 W"],
 							["Auckland","36.8406 S","174.7400 E"],
