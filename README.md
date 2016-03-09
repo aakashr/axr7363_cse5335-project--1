@@ -43,7 +43,7 @@ CSE5335-Project-1 Submission
 ###### `What Ubuntu commands are required to deploy and run your server?`
 ###### The following commands were used in order to deploy and run my project on the Server.
 
-* ###### For adding the changes present on the local machine to the Heroku's git server:
+* ###### For adding the changes present on the local machine to the Heroku's git server.
 * `git add .`
 
 * ###### For committing changes to the Heroku's git server.
