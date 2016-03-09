@@ -9,7 +9,7 @@ CSE5335-Project-1 Submission
 ### Project Details
 ---
 
-This project displays a Button and Google Maps API. Once the user clicks on the Button a RESTful API is invoked on the Server which returns City, Latitude & Longitude in JSON format. The data is then parsed and displayed in tabular for on the page and its corresponding Markers are placed on the Google Maps.
+The Web Page displays a Button and Google Maps API. Once the user clicks on the Button a RESTful API is invoked on the Server which returns City, Latitude & Longitude in JSON format. The data is then parsed and displayed in tabular for on the page and its corresponding Markers are placed on the Google Maps.
 
 NOTE : Some of the Markers may not be visible as the Map is zoomed in on US. Once you Zoom out on the Map you can see all the Markers clearly. 
 
