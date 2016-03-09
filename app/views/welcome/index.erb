@@ -3,12 +3,13 @@
 </div>
 <div id="table" class="center">
 </div>
+<div id="Map" style="width: 100%"></div>
 <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 
 <script>
   var map;
   function initMap() {
-      map = new google.maps.Map(document.getElementById('cities'), {
+      map = new google.maps.Map(document.getElementById('Map'), {
       center: {lat: 43, lng: -104},
       zoom: 4,
       mapTypeControl: false,
