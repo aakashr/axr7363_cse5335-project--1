@@ -25,6 +25,7 @@
         })
         .done(function(JSON_City_List) {
           //alert(JSON_City_List);
+          var markers = new Array();
           var tbl=$("<table/>").attr("id","cities");
           $("#table").empty();
           $("#table").append(tbl);
