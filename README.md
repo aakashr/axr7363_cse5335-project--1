@@ -12,22 +12,22 @@ CSE5335-Project-1 Submission
 ###### `What server framework did you choose and why?`
 ######  I used Ruby on Rails as my Server framework. The reason why I choose ROR was because of the following reasons :
 
-* ###### Its open source.
-* ###### Making changes to ROR files using the IDE Ruby Mine was quick and efficient.
-* ###### When I went through its tutorial it felt more easy to understand.
+*  Its open source.
+*  Making changes to ROR files using the IDE Ruby Mine was quick and efficient.
+*  When I went through its tutorial it felt more easy to understand.
 
 ###### `What client framework did you choose and why?`
-###### I used JavaScript for manipulating DOM objects and AJAX for making RESTful API calls to the server and getting the data from the server. The only reason why I choose this is because it is something that I am familiar with, and making a API calls using AJAX couldn't is very easy.
+#### I used JavaScript for manipulating DOM objects and AJAX for making RESTful API calls to the server and getting the data from the server. The only reason why I choose this is because it is something that I am familiar with, and making a API calls using AJAX couldn't is very easy.
 
 ###### `What aspect of the implementation did you find easy, if any, and why?`
-###### Almost all the things that I did, as part of this projct, were not easy however, displaying the JSON data in a tabular form didn't take me as much time. 
+#### Almost all the things that I did, as part of this projct, were not easy however, displaying the JSON data in a tabular form didn't take me as much time. 
 
 ###### `What aspect of the implementation did you find hard, if any, and why?`
-###### The following tasks listed below are ordered according to the dificculty i faced while doing them.(1 being the most difficult).
+#### The following tasks listed below are ordered according to the dificculty i faced while doing them.(1 being the most difficult).
 
-1. ###### Understanding what to edit where in ROR. 
-2. ###### Debugging why Google Maps API wasn't getting displayed.
-3. ###### Debugging why the Markers were not getting displayed on the Map.
+1. Understanding what to edit where in ROR. 
+2. Debugging why Google Maps API wasn't getting displayed.
+3. Debugging why the Markers were not getting displayed on the Map.
 
 ###### `What components OTHER than your client and server framework did you install, if any, and if so, what is their purpose for your solution?`
 ###### I installed the following software :
